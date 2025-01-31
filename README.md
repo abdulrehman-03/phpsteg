@@ -1,6 +1,6 @@
 # PHP Steganography App
 
-This is simple image staganography web app for hiding datga inside images. Use this to hide data inside images and send hidden messages.
+This is simple image staganography web app for hiding data inside images. Use this to hide data inside images and send hidden messages.
 
 
 ### Setup
