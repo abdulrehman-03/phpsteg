@@ -17,7 +17,7 @@ Navigate to http://localhost/phpsteg
 
 ### Interface
 
-[!image](./interface.png)
+![image](./interface.png)
 
 
 ### Credits
