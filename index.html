@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="flex flex-col h-screen w-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHPSteg - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center">
+    <header class="w-full bg-teal-500 text-black py-4 shadow-md">
+        <h1 class="text-center text-2xl font-bold">
+            <a href="./" class="text-center block">
+                PHP Steg
+            </a>
+        </h1>
+    </header>
+
+    <div class="flex-grow">
+        <main class="container mx-auto mt-8 px-4">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <div class="flex justify-center space-x-4 mb-6">
+                    <a href="encode.php" class="block text-center bg-teal-500 text-black px-4 py-2 rounded-lg hover:bg-teal-600 transition">
+                        Encode
+                    </a>                    
+                    <a href="decode.php" class="block text-center bg-teal-500 text-black px-4 py-2 rounded-lg hover:bg-teal-600 transition">
+                        Decode
+                    </a>         
+                </div>
+
+                <section>
+                    <h2 class="text-xl font-semibold mb-4 mt-9">Usage:</h2>
+                    <p class="mb-4">
+                        This web app embeds your message into a PNG image, making your message hidden to the normal eye!
+                    </p>
+
+                    <h3 class="text-lg font-semibold mb-2">Encode:</h3>
+                    <ol class="list-decimal pl-6 mb-4">
+                        <li>Go to encode, upload your image (the image in which you want to hide your message), enter your message, and submit.</li>
+                        <li>Download the encoded PNG image.</li>
+                        <li>Use this image as a secret message.</li>
+                    </ol>
+
+                    <h3 class="text-lg font-semibold mb-2">Decode:</h3>
+                    <ol class="list-decimal pl-6">
+                        <li>Go to decode and upload your encoded image.</li>
+                        <li>Submit and you will get your hidden message!</li>
+                    </ol>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer class="w-full bg-teal-500 text-black py-4 mt-8">
+        <p class="text-center">
+            Developed By: 
+            <a href="https://github.com/abdulrehman-03" target="_blank" class="border-2 border-black rounded-md px-3 py-1 hover:bg-teal-600 hover:text-white transition">
+                Syed Abdulrehman
+            </a>
+        </p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
